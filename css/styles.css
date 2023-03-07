@@ -9,7 +9,12 @@ h1{
     font-weight: 900;
     color: white;
 }
-
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
 #title{
     background-color: #ff4c68;
     color: white;
@@ -70,4 +75,35 @@ margin: 10px auto 60px;
 }
 .ikony:hover{
     fill: #ff4c68 ;
+}
+#testimonials{
+
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+.catfoto{
+    border-radius: 100%;
+    width: 150px;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#karuselfoto{
+    width: 100px;
+}
+.testimonial-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
