@@ -115,3 +115,41 @@ text-align: center;
 .pricingcol{
     padding: 3% 2%;
 }
+@media (max-width: 1028px){
+    .iphone-cat-pic{ 
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 50px 50px 100px;
+}
+h3{
+    font-size: 3rem;
+    font-family: 'montserrat';
+    font-weight: 900;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.down-down-butt{
+    text-align: center;
+}
+.btbt{
+    margin-left: 40px;
+}
+#footer{
+    padding: 50px 0;
+    text-align: center;
+}
+.fbicon a{
+    margin: 0 20px;
+    color: black;
+}
+#footer p{
+    margin-top: 20px;
+}
