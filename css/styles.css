@@ -1,150 +1,169 @@
-body{
+body {
     font-family: 'Montserrat';
     text-align: center;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 7% 15%;
 }
-h1{
- 
-    font-weight: 800;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    color: white;
-}
-h2{
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bolder;
-}
-h3{
-    font-size: 3rem;
-    font-weight: 900;
-    padding-bottom: 50px;
-}
-#title{
+
+.colored-section {
     background-color: #ff4c68;
     color: white;
+}
+.colored-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+    color: black;
+}
+
+h1,h2,h3 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+#title.container-fluid {
+    padding: 3% 15% 7%;
     text-align: left;
 }
-#title.container-fluid{
-    padding: 3% 15% 7%;
-}
-.navbar{
+
+.navbar {
     padding-bottom: 4.5rem;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 20px;
 }
-.nav-link{
-    font-size: 1.3rem;
 
+.nav-link {
+    font-size: 1.3rem;
     font-weight: 150;
 }
-    /* download buttons */
 
-.download-button{
+/* download buttons */
+
+.download-button {
     margin: 5% 4% 5% 0%;
-    }
-   /*  Fotka kočky iphone */
+}
 
-.iphone-cat-pic{
+/*  Fotka kočky iphone */
+
+.iphone-cat-pic {
     transform: rotate(25deg);
     width: 250px;
- position: absolute;
- margin-left: 150px;
+    position: absolute;
+    margin-left: 150px;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 7% 15%;
 }
-svg{
+
+svg {
     vertical-align: baseline;
 }
 
 /* easy to use */
-#features{
+#features {
     padding: 10% 15% 8% 15%;
-    background-color: white;
     position: relative;
 }
-#features p{
-color: #B7B7B7;
-width: 60%;
-margin: 10px auto 60px;
-}
-.nadpisy{
 
+#features p {
+    width: 60%;
+    margin: 10px auto 60px;
+}
+
+.nadpisy {
     font-weight: bold;
     font-size: 1.5rem;
 }
-.ikony{
+
+.ikony {
     margin-bottom: 16px;
-    
+
 }
-.ikony:hover{
-    fill: #ff4c68 ;
+
+.ikony:hover {
+    fill: #ff4c68;
 }
-#testimonials{
-    background-color: #ff4c68;
-    color: white;
-}
-.catfoto{
+
+.catfoto {
     border-radius: 100%;
     width: 150px;
     margin: 20px;
 }
-#press{
-    background-color: #ff4c68;
+
+#press {
     padding-bottom: 3%;
 }
-.logo{
+
+.logo {
     width: 15%;
     margin: 20px 20px 50px;
 }
-#karuselfoto{
+
+#karuselfoto {
     width: 100px;
 }
-.testimonial-image{
+
+.testimonial-image {
     width: 200px;
     height: 200px;
     border-radius: 100%;
 }
 
-#pricing{
+#pricing {
     padding: 100px;
 }
-.pricingcol{
+
+.pricingcol {
     padding: 3% 2%;
 }
-@media (max-width: 1028px){
-    .iphone-cat-pic{ 
+
+@media (max-width: 1028px) {
+    .iphone-cat-pic {
         position: static;
         transform: rotate(0);
     }
-    #title{
+
+    #title {
         text-align: center;
     }
 }
-#cta{
-    background-color: #ff4c68;
-    color: white;
-}
 
-
-.btbt{
+.btbt {
     margin-left: 40px;
 }
 
-.fbicon a{
+.fbicon a {
     margin: 0 20px;
     color: black;
 }
-#footer p{
+
+#footer p {
     margin-top: 20px;
 }
